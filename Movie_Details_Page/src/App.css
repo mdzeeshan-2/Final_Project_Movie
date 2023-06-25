@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .blue-bg {
+    background-color: #032541;
+  }
+  
+  .small-font-opac {
+    font-size: 0.7rem;
+    opacity: 0.2;
+  }
+  
+  .wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    overflow: hidden;
+    
+  }
+
+  @media screen and (max-width: 800px) {
+    .wrapper {      
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      gap: 1rem;
+    }
+}
