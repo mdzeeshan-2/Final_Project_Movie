@@ -1,0 +1,28 @@
+.circle{
+ width: 2.375rem;
+ height: 2.375rem;
+ background-color: rgb(3, 37, 65);
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.svg{
+    width: 34px;
+    height: 34px;
+    transform: rotate(-90deg);
+}
+.circle_inner{
+    scale: 0.95;
+}
+.percent{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+
+}
+.show_percent{
+    position: absolute;
+  font-size: 0.3438rem;
+  top: 0.2125rem;
+}

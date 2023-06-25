@@ -1,0 +1,15 @@
+.section{
+    padding-top: 1.875rem;
+position: relative;
+}
+.title{
+    font: bold; 
+    font-size: 2xl;
+}
+.div_title{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem; 
+    padding-left: 2.5rem;
+    padding-right: 2.5rem; 
+}
